@@ -8,3 +8,4 @@ response = requests.get(api_url, auth=auth_details)
 vertrekXML = xmltodict.parse(response.text)
 print(vertrekXML)
 #hello world 2
+#test
